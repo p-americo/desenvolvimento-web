@@ -1,0 +1,48 @@
+@import url(./dashboard.css);
+@import url(./scrollBar.css);
+@import url(./navigation.css);
+@import url(./header.css);
+@import url(./schedule.css);
+@import url(./actionPlan.css);
+@import url(./cardTemplate.css);
+@import url(./cardBudget.css);
+@import url(./painel.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  background-color: #cdcfde;
+  max-width: max-content;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+div.background {
+  display: flex;
+  background-color: #f8f9fa;
+  width: 97vw;
+  max-width: 1500px;
+  height: 97vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 40px;
+  flex-direction: column;
+}
